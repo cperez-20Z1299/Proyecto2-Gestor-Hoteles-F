@@ -1,0 +1,465 @@
+h2 {
+  color: white;
+  font-weight: 400;
+}
+
+h2 {
+  padding: .4rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo {
+  color: black;
+  text-decoration: dotted;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-img {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+
+}
+
+.container {
+  max-width: 100%;
+}
+
+.L1 {
+  background-color: rgb(208, 208, 208);
+}
+
+.menu {
+  background-color: #333;
+}
+
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #a0a0a0;
+}
+
+/* link sin visitar */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* link visitado */
+a:visited {
+  color: #eae9eca8;
+}
+
+/* al pasar el ratón */
+a:hover {
+  color: rgb(183, 178, 187);
+}
+
+/* seleccionado */
+a:active {
+  color: #0000FF;
+}
+
+.contenedor_flex {
+  display: flex;
+  /* flex | inline-flex */
+  flex-direction: row;
+  /* row | row-reverse | column | column-reverse */
+  flex-wrap: wrap;
+  /* nowrap | wrap | wrap-reverse */
+  align-items: flex-start;
+  /* flex-start | flex-end | center | baseline | stretch */
+  justify-content: flex-start;
+  /* flex-start | flex-end | center | space-between | space-around */
+  align-content: flex-start;
+  /* flex-start | flex-end | center | space-between | space-around | stretch */
+}
+
+#datos_personales {
+  float: left;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: #ea4d53;
+  padding: 50px;
+}
+
+.columna_datos {
+  align-self: stretch;
+  /* flex-start | flex-end | center | space-between | space-around | stretch */
+  flex-grow: 1;
+  /* número | initial | inherit */
+  flex-shrink: 1;
+  /* número | initial | inherit */
+  flex-basis: 1;
+  /* número | auto | initial | inherit */
+  order: 2;
+  /* número | initial | inherit */
+  padding: 50px;
+  max-width: 50%;
+  min-width: 450px;
+  background-color: white;
+
+}
+
+.circulo {
+  display: block;
+  border-radius: 200%;
+  width: 200px;
+  height: 200px;
+  background: rgb(223, 223, 223);
+  border: 2px solid white;
+  overflow: hidden;
+  margin: auto;
+}
+
+.circulo img {
+  vertical-align: center;
+  width: 120%;
+}
+
+.comentario {
+  font-size: 25px;
+  font-family: Bitter, serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.separador_corto {
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-color: white;
+  border-style: solid;
+}
+
+.separador_largo {
+  margin: 10px 0 30px 0;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+.titulo1 {
+  font: 400 50px oswald, sans-serif;
+  line-height: 20px;
+  color: black;
+  text-align: center;
+}
+
+.titulo2 {
+  font-family: Bitter, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  text-align: left;
+}
+
+.subtitulo1 {
+  font: 300 16px roboto, sans-serif;
+  letter-spacing: 4px;
+  line-height: 40px;
+  color: black;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.twitter_btn {
+  display: inline-block;
+  border-radius: 200%;
+  width: 30px;
+  height: 30px;
+  background-color: #55acee;
+  overflow: hidden;
+  margin: auto;
+}
+
+.facebook_btn {
+  display: inline-block;
+  border-radius: 200%;
+  width: 30px;
+  height: 30px;
+  background-color: #3b5998;
+  overflow: hidden;
+  margin: auto;
+}
+
+.behance_btn {
+  display: inline-block;
+  border-radius: 200%;
+  width: 30px;
+  height: 30px;
+  background-color: #3b5998;
+  overflow: hidden;
+  margin: auto;
+}
+
+.behance_btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.texto_normal {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+}
+
+.texto_normal_centrado {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.datos_personales table,
+th,
+tr {
+  margin: 30px auto;
+  border-spacing: 9px;
+  vertical-align: baseline;
+}
+
+.datos_personales th {
+  font-family: Bitter, serif;
+  font-size: 14px;
+  padding-right: 45px;
+  vertical-align: baseline;
+}
+
+.datos_personales tr {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: baseline;
+}
+
+.tablas {
+  border-spacing: 0 15px;
+  min-width: 300px;
+}
+
+.tablas td {
+  text-align: left;
+  min-width: 50px;
+  padding-right: 15px;
+}
+
+.tablas th {
+  font-family: Bitter, serif;
+  font-size: 14px;
+  text-align: left;
+  min-width: 40px;
+  padding-right: 15px;
+}
+
+.tablas tr {
+  font-family: Roboto, serif;
+  font-weight: 300;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+.texto_cursiva {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+.icono {
+  height: 39px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  vertical-align: baseline;
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.otros {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  vertical-align: baseline;
+  /*list-style-type: none;*/
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.otros li {
+  margin-bottom: 10px;
+}
+
+.barra_skills {
+  width: 400px;
+  height: 10px;
+  margin: 10px 10px 10px 0;
+  background-color: lightgrey;
+}
+
+.nivel25 {
+  position: relative;
+  height: 10px;
+  margin: 10px 10px 10px 0;
+  background-color: #030202;
+}
+
+.nivel25:hover {
+  background-color: lightgrey;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.nivel50 {
+  position: relative;
+  height: 10px;
+  margin: 10px 10px 10px 0;
+  background-color: #ea4d53;
+}
+
+.nivel50:hover {
+  background-color: lightgrey;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.nivel75 {
+  position: relative;
+  height: 10px;
+  margin: 10px 10px 10px 0;
+  background-color: #ea4d53;
+}
+
+.nivel75:hover {
+  background-color: rgb(209, 209, 209);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.conte{
+  background-color: #BBBB;
+}
+.conte b{
+  margin: 3%;
+  color: bold black;
+}
+.conte, a{
+  color: #0a0101;
+  font-size: 25px;
+}
+
+.container, createHotel{
+  margin-top: 10%;
+  font-size: 20px;
+}
+
+#titulo-info{
+  text-align: center;
+  background-color: #CDCDCD;
+}
+
+#titulo-info h2{
+  background-color: #CDCDCD;
+  color: black;
+  justify-content: center;
+}
+
+#titulo-hoteles{
+  text-align: center;
+  background-color: #2B3035;
+  color: white;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width:640px) {
+
+  .contenedor_flex {
+    flex-direction: column;
+  }
+
+  #datos_personales {
+    float: none;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .columna_datos {
+    padding: 50px;
+    width: 100%;
+    max-width: 640px;
+  }
+}
+
+
+  .contenedor_flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #datos_personales {
+    float: none;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .columna_datos {
+    padding: 50px;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  .icono {
+    display: block;
+    height: 60px;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  .titulo2 {
+    font-family: Bitter, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  .tablas {
+    margin: auto;
+    max-width: 200px;
+  }
+
+  .barra_skills {
+    max-width: 300px;
+  }
